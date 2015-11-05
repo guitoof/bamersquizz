@@ -1,5 +1,5 @@
 import {App, Platform, StatusBar} from 'ionic/ionic';
-import {Topics} from './topics/topics';
+import {TopicsPage} from './topics/topics';
 
 
 @App({
@@ -8,6 +8,6 @@ import {Topics} from './topics/topics';
 
 class BamersQuizz {
   constructor() {
-    this.root = Topics;
+    this.root = TopicsPage;
   }
 }
