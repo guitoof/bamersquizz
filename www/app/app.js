@@ -11,22 +11,3 @@ class BamersQuizz {
     this.root = Topics;
   }
 }
-
-// @App({
-//   template: '<ion-nav [root]="root"></ion-nav>',
-// })
-//
-// export class App {
-//   constructor(platform: Platform) {
-//     this.platform = platform;
-//     this.initializeApp();
-//     this.root = TabsPage;
-//   }
-//
-//   initializeApp() {
-//     this.platform.ready().then(() => {
-//       console.log('Platform ready');
-//       StatusBar.setStyle(StatusBar.DEFAULT);
-//     });
-//   }
-// }
