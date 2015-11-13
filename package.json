@@ -1,4 +1,8 @@
 {
+  "name": "bamersquizz",
+  "description": "bamersquizz: An Ionic 2 project",
+  "repository": "https://github.com/guitoof/bamersquizz",
+  "license": null,
   "devDependencies": {
     "awesome-typescript-loader": "0.12.0-rc.2",
     "browser-sync": "2.8.2",
@@ -24,7 +28,5 @@
   ],
   "cordovaPlatforms": [
     "ios"
-  ],
-  "name": "bamersquizz",
-  "description": "bamersquizz: An Ionic project"
+  ]
 }
