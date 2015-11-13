@@ -1,0 +1,15 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Topics
+  </ion-title>
+</ion-navbar>
+<ion-content>
+  <ion-list>
+    <ion-item-sliding *ng-for="#topic of topics" (click)="startQuizz(topic)">
+      <ion-avatar item-left>
+        <img [src]="topic.icon" alt="">
+      </ion-avatar>
+      {{topic.title}}
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
