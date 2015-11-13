@@ -12,5 +12,9 @@ module.exports = {
   ],
   "htmlWatchPatterns": [
     "www/**/*.html"
+  ],
+  "watchPatterns": [
+    "www/**/*.js",
+    "www/**/*.ts"
   ]
-}
+};
