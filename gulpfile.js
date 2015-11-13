@@ -26,7 +26,9 @@ var IONIC_DIR = "node_modules/ionic-framework/"
 gulp.task('watch', ['sass', 'fonts'], function(done) {
   watch('www/app/**/*.scss', function(){
     gulp.start('sass');
-  });
+  })
+  .pipe(watch('www/app/**/*/.js'))
+  .pipe(watch('www/app/**/*/.ts'));
   compile(true, function(){
     done();
   });
@@ -48,14 +50,17 @@ gulp.task('build', ['sass', 'fonts'], function(done) {
  * The default is http://localhost:8100. Use the optional '--port'
  * flag to specify a different port.
  ******************************************************************************/
-gulp.task('serve', function() {
+gulp.task('serve', ['watch'], function() {
   browserSync({
     server: {
       baseDir: 'www',
     },
     port: flags.port,
     files: [
-      'www/**/*.html'
+      'www/**/*.html',
+      'www/**/*.js',
+      'www/**/*.ts',
+      'www/**/*.scss'
     ],
     notify: false
   });
