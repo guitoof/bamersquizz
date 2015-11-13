@@ -1,0 +1,22 @@
+<ion-navbar *navbar>
+  <ion-title>
+    Quizz Results
+  </ion-title>
+</ion-navbar>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-content>
+      <h2 class="card-title">
+        {{ quizz.title }}
+      </h2>
+      <p>
+        Quizz score: {{ quizz.score }} pts
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <button default (click)="onHomeClicked($event)">Home</button>
+
+</ion-content>

@@ -1,0 +1,21 @@
+<ion-navbar *navbar>
+  <ion-title>
+    {{ quizz.title }}
+  </ion-title>
+</ion-navbar>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      {{quizz.getQuestion()}}
+    </ion-card-header>
+
+    <ion-radio-group>
+      <ion-radio *ng-for="#choice of quizz.getChoices()" (click)="onSubmit($event, choice)">
+        {{ choice }}
+      </ion-radio>
+    </ion-radio-group>
+  </ion-card>
+
+</ion-content>
