@@ -2,7 +2,7 @@
 
 ### Le compagnon de route du Guide pour Bamers
 En complément du Guide pour Bamers écrit en collaboration par l'équipe de développeurs de chez BAM,
-l'application BamersQuizz permet de proposer des quizz technos aux nouveaux Bamers afin qu'ils évaluent leur connaissance au fur et à mesure de leur formation et de leur lecture du Guide.
+l'application BamersQuizz permet de proposer des quizz technos aux nouveaux Bamers afin qu'ils "valident" leur connaissance au fur et à mesure de leur formation et de leur lecture du Guide pour une formation "Agile comme un singe".
 Regroupés par sujets (ionic 2, angular 2, git, tests, intégration continue, css ...) et classés par difficulté, les quizz permettront d'évaluer le niveau de maîtrise chapitre après chapitre.
 
 ### Quizz post formation
