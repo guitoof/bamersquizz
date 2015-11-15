@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.bamersquizz268673" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>bamersquizz</name>
+<widget id="fr.bamlab.BamersQuizzApp" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>BamersQuizzApp</name>
   <description>A Quizz app for new bamers</description>
   <author email="guillaumedm@bamlab.fr">BAM Team</author>
   <content src="index.html"/>
