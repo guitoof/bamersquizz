@@ -37,8 +37,11 @@ export class Quizz {
   isRight(answer) {
     return answer === this.currentItem.answer
   }
-  getGrade() {
-    return this.score/this.items.length*10;
+  getScore() {
+    return this.score;
+  }
+  getGradingScale() {
+    return this.items.length;
   }
 
   submitAnswer(answer) {

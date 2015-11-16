@@ -12,7 +12,7 @@
         {{ quizz.title }}
       </h2>
       <p>
-        Quizz score: {{ quizz.score }} pts
+        Quizz score: {{ quizz.getScore() }} / {{ quizz.getGradingScale() }}
       </p>
     </ion-card-content>
   </ion-card>
