@@ -8,14 +8,18 @@
 
   <ion-card>
     <ion-card-header>
-      {{quizz.getQuestion()}}
+      Question n°{{ quizz.getCurrentId() }}
     </ion-card-header>
+    <ion-card-content>
+      {{ quizz.getQuestion() }}
+    </ion-card-content>
+  </ion-card>
 
     <ion-radio-group>
       <ion-radio *ng-for="#choice of quizz.getChoices()" (click)="onSubmit($event, choice)">
         {{ choice }}
       </ion-radio>
     </ion-radio-group>
-  </ion-card>
+
 
 </ion-content>

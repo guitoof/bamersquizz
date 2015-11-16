@@ -28,6 +28,9 @@ export class Quizz {
   }
 
   /* Getters for current quizz item information */
+  getCurrentId() {
+    return this.currentItem.id;
+  }
   getQuestion() {
     return this.currentItem.question;
   }
